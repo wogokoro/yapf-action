@@ -1,4 +1,4 @@
-FROM python:3
+FROM python:3.10
 
 LABEL "com.github.actions.name"="YAPF Python Code Formatting Check"
 LABEL "com.github.actions.description"="Run YAPF to check that your python code if correctly formatted."
